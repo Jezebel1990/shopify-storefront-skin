@@ -1,10 +1,17 @@
 export const countries = {
   default: {
+    label: 'Brasil (BRL R$)',
+    language: 'PT',
+    country: 'BR',
+    currency: 'BRL',
+  },
+  '/en-us': {
     label: 'United States (USD $)',
     language: 'EN',
     country: 'US',
     currency: 'USD',
   },
+
   '/en-ad': {
     label: 'Andorra (EUR €)',
     language: 'EN',

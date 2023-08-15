@@ -151,7 +151,7 @@ export default function Product() {
               <div className="grid gap-4 py-4">
                 {descriptionHtml && (
                   <ProductDetail
-                    title="Product Details"
+                    title="Descrição do Produto"
                     content={descriptionHtml}
                   />
                 )}
