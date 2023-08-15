@@ -123,8 +123,8 @@ export default function Reset() {
   return (
     <div className="flex justify-center my-24 px-4">
       <div className="max-w-md w-full">
-        <h1 className="text-4xl">Reset Password.</h1>
-        <p className="mt-4">Enter a new password for your account.</p>
+        <h1 className="text-4xl">Redefinir senha.</h1>
+        <p className="mt-4">Digite uma nova senha para sua conta.</p>
         {/* TODO: Add onSubmit to validate _before_ submission with native? */}
         <Form
           method="post"
@@ -203,7 +203,7 @@ export default function Reset() {
               className="bg-primary text-contrast rounded py-2 px-4 focus:shadow-outline block w-full"
               type="submit"
             >
-              Save
+              Salvar
             </button>
           </div>
         </Form>

@@ -126,6 +126,7 @@ export default function AccountDetailsEdit() {
             placeholder="First name"
             aria-label="First name"
             defaultValue={customer.firstName ?? ''}
+            style={{ color: 'black' }} 
           />
         </div>
         <div className="mt-3">
@@ -138,6 +139,7 @@ export default function AccountDetailsEdit() {
             placeholder="Last name"
             aria-label="Last name"
             defaultValue={customer.lastName ?? ''}
+            style={{ color: 'black' }} 
           />
         </div>
         <div className="mt-3">
@@ -150,6 +152,7 @@ export default function AccountDetailsEdit() {
             placeholder="Mobile"
             aria-label="Mobile"
             defaultValue={customer.phone ?? ''}
+            style={{ color: 'black' }} 
           />
         </div>
         <div className="mt-3">
@@ -163,6 +166,7 @@ export default function AccountDetailsEdit() {
             placeholder="Email address"
             aria-label="Email address"
             defaultValue={customer.email ?? ''}
+            style={{ color: 'black' }} 
           />
           {actionData?.fieldErrors?.email && (
             <p className="text-red-500 text-xs">

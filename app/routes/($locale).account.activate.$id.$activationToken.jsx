@@ -150,6 +150,7 @@ export default function Activate() {
               autoComplete="current-password"
               placeholder="Password"
               aria-label="Password"
+              
               minLength={8}
               required
               // eslint-disable-next-line jsx-a11y/no-autofocus

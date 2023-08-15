@@ -89,7 +89,7 @@ export default function Register() {
   return (
     <div className="flex justify-center my-24 px-4">
       <div className="max-w-md w-full">
-        <h1 className="text-4xl">Create an Account.</h1>
+        <h1 className="text-4xl">Criar uma conta.</h1>
         {/* TODO: Add onSubmit to validate _before_ submission with native? */}
         <Form
           method="post"
@@ -109,7 +109,7 @@ export default function Register() {
               type="email"
               autoComplete="email"
               required
-              placeholder="Email address"
+              placeholder="Email"
               aria-label="Email address"
               // eslint-disable-next-line jsx-a11y/no-autofocus
               autoFocus
@@ -167,14 +167,14 @@ export default function Register() {
               type="submit"
               disabled={!!(nativePasswordError || nativeEmailError)}
             >
-              Create Account
+              Criar uma conta
             </button>
           </div>
           <div className="flex items-center mt-8 border-t border-gray-300">
             <p className="align-baseline text-sm mt-6">
-              Already have an account? &nbsp;
+            Já tem uma conta? &nbsp;
               <Link className="inline underline" to="/account/login">
-                Sign in
+                Entrar
               </Link>
             </p>
           </div>

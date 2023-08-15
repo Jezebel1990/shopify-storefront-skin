@@ -30,11 +30,11 @@ const PLACEHOLDERS = {
           mediaContentType: 'IMAGE',
           alt: 'A snowboarder standing on a mountain top in choppy snow, shows off the back of his snowboard which reads Hydrogen in a cursive script.',
           previewImage: {
-            url: 'https://cdn.shopify.com/s/files/1/0551/4566/0472/files/Hydrogen_Hero_Feature_2.jpg?v=1654902468',
+            url: 'https://i.imgur.com/Or2beXS.jpg',
           },
           id: 'gid://shopify/MediaImage/29259478499384',
           image: {
-            url: 'https://cdn.shopify.com/s/files/1/0551/4566/0472/files/Hydrogen_Hero_Feature_2.jpg?v=1654902468',
+            url: 'https://i.imgur.com/Or2beXS.jpg',
             width: 2500,
             height: 3155,
           },
@@ -57,11 +57,11 @@ const PLACEHOLDERS = {
           mediaContentType: 'IMAGE',
           alt: 'A skier hikes up a mountain through the snow with skis over their shoulder.',
           previewImage: {
-            url: 'https://cdn.shopify.com/s/files/1/0551/4566/0472/files/Chalet_Collection_Feature_1.jpg?v=1654902306',
+            url: 'https://i.imgur.com/Or2beXS.jpg',
           },
           id: 'gid://shopify/MediaImage/29259478368312',
           image: {
-            url: 'https://cdn.shopify.com/s/files/1/0551/4566/0472/files/Chalet_Collection_Feature_1.jpg?v=1654902306',
+            url: 'https://i.imgur.com/Or2beXS.jpg',
             width: 2500,
             height: 2500,
           },
@@ -73,11 +73,11 @@ const PLACEHOLDERS = {
           mediaContentType: 'IMAGE',
           alt: 'A snow covered lodge is illuminated by lights at night with a dark starry sky and mountain backdrop.',
           previewImage: {
-            url: 'https://cdn.shopify.com/s/files/1/0551/4566/0472/files/Chalet_Collection_Feature_2.jpg?v=1654902306',
+            url: 'https://i.imgur.com/Or2beXS.jpg',
           },
           id: 'gid://shopify/MediaImage/29259478401080',
           image: {
-            url: 'https://cdn.shopify.com/s/files/1/0551/4566/0472/files/Chalet_Collection_Feature_2.jpg?v=1654902306',
+            url: 'https://i.imgur.com/Or2beXS.jpg',
             width: 2500,
             height: 2500,
           },
@@ -96,11 +96,11 @@ const PLACEHOLDERS = {
           mediaContentType: 'IMAGE',
           alt: 'Three young women in snowboarding attire embracing and laughing while snow falls around them',
           previewImage: {
-            url: 'https://cdn.shopify.com/s/files/1/0551/4566/0472/files/Collection_Feature_Wide.jpg?v=1654902160',
+            url: 'https://i.imgur.com/Or2beXS.jpg',
           },
           id: 'gid://shopify/MediaImage/29259478302776',
           image: {
-            url: 'https://cdn.shopify.com/s/files/1/0551/4566/0472/files/Collection_Feature_Wide.jpg?v=1654902160',
+            url: 'https://i.imgur.com/Or2beXS.jpg',
             width: 5000,
             height: 2500,
           },

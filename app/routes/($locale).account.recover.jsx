@@ -54,19 +54,18 @@ export default function Recover() {
       <div className="max-w-md w-full">
         {isSubmitted ? (
           <>
-            <h1 className="text-4xl">Request Sent.</h1>
+            <h1 className="text-4xl">Solicitação enviada.</h1>
             <p className="mt-4">
-              If that email address is in our system, you will receive an email
-              with instructions about how to reset your password in a few
-              minutes.
+            Se esse endereço de e-mail estiver em nosso sistema, você receberá um e-mail
+            com instruções sobre como redefinir sua senha em alguns minutos.
             </p>
           </>
         ) : (
           <>
-            <h1 className="text-4xl">Forgot Password.</h1>
+            <h1 className="text-4xl">Esqueceu sua senha.</h1>
             <p className="mt-4">
-              Enter the email address associated with your account to receive a
-              link to reset your password.
+            Digite o endereço de e-mail associado à sua conta para receber um
+            link para redefinir sua senha.
             </p>
             {/* TODO: Add onSubmit to validate _before_ submission with native? */}
             <Form
@@ -113,14 +112,14 @@ export default function Recover() {
                   className="bg-primary text-contrast rounded py-2 px-4 focus:shadow-outline block w-full"
                   type="submit"
                 >
-                  Request Reset Link
+                  Solicitar link de redefinição
                 </button>
               </div>
               <div className="flex items-center mt-8 border-t border-gray-300">
                 <p className="align-baseline text-sm mt-6">
-                  Return to &nbsp;
+                  Voltar &nbsp;
                   <Link className="inline underline" to="/account/login">
-                    Login
+                    Entrar
                   </Link>
                 </p>
               </div>

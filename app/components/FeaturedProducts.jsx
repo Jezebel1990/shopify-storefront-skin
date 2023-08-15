@@ -17,7 +17,7 @@ import {usePrefixPathWithLocale} from '~/lib/utils';
  */
 export function FeaturedProducts({
   count = 4,
-  heading = 'Shop Best Sellers',
+  heading = 'Compre os mais vendidos',
   layout = 'drawer',
   onClose,
   query,

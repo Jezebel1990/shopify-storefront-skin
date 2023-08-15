@@ -180,7 +180,7 @@ export default function Product() {
           resolve={recommended}
         >
           {(products) => (
-            <ProductSwimlane title="Related Products" products={products} />
+            <ProductSwimlane title="Produtos Relacionados" products={products} />
           )}
         </Await>
       </Suspense>
@@ -334,7 +334,7 @@ export function ProductForm({variants}) {
                   as="span"
                   className="flex items-center justify-center gap-2"
                 >
-                  <span>Add to Cart</span> <span>·</span>{' '}
+                  <span>Adicionar à sacola</span> <span>·</span>{' '}
                   <Money
                     withoutTrailingZeros
                     data={selectedVariant?.price}

@@ -94,7 +94,7 @@ function CartDrawer({isOpen, onClose}) {
   const [root] = useMatches();
 
   return (
-    <Drawer open={isOpen} onClose={onClose} heading="Cart" openFrom="right">
+    <Drawer open={isOpen} onClose={onClose} heading="Sacola" openFrom="right">
       <div className="grid">
         <Suspense fallback={<CartLoading />}>
           <Await resolve={root.data?.cart}>
@@ -180,7 +180,7 @@ function MobileHeader({title, isHome, openCart, openMenu}) {
             }
             type="search"
             variant="minisearch"
-            placeholder="Search"
+            placeholder="Buscar"
             name="q"
           />
         </Form>
@@ -255,7 +255,7 @@ function DesktopHeader({isHome, menu, openCart, title}) {
             }
             type="search"
             variant="minisearch"
-            placeholder="Search"
+            placeholder="Buscar"
             name="q"
           />
           <button

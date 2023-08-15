@@ -67,7 +67,7 @@ function resolveToFromType(
     PAGE: 'pages',
     CATALOG: 'collections/all',
     PRODUCT: 'products',
-    SEARCH: 'search',
+    SEARCH: 'buscar',
     SHOP_POLICY: 'policies',
   };
 
@@ -93,7 +93,7 @@ function resolveToFromType(
     case type === 'COLLECTIONS':
       return `/${routePrefix.COLLECTIONS}`;
 
-    case type === 'SEARCH':
+    case type === 'BUSCAR':
       return `/${routePrefix.SEARCH}`;
 
     case type === 'CATALOG':

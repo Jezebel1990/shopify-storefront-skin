@@ -61,7 +61,7 @@ function CartDiscounts({discountCodes}) {
       {/* Have existing discount, display it with a remove option */}
       <dl className={codes && codes.length !== 0 ? 'grid' : 'hidden'}>
         <div className="flex items-center justify-between font-medium">
-          <Text as="dt">Discount(s)</Text>
+          <Text as="dt">Desconto(s)</Text>
           <div className="flex items-center justify-between">
             <UpdateDiscountForm>
               <button>
@@ -91,7 +91,7 @@ function CartDiscounts({discountCodes}) {
             placeholder="Discount code"
           />
           <button className="flex justify-end font-medium whitespace-nowrap">
-            Apply Discount
+          Aplicar desconto
           </button>
         </div>
       </UpdateDiscountForm>
@@ -164,7 +164,7 @@ function CartSummary({cost, layout, children = null}) {
   return (
     <section aria-labelledby="summary-heading" className={summary[layout]}>
       <h2 id="summary-heading" className="sr-only">
-        Order summary
+      Resumo do pedido:
       </h2>
       <dl className="grid">
         <div className="flex items-center justify-between font-medium">
@@ -252,7 +252,7 @@ function ItemRemoveButton({lineIds}) {
         className="flex items-center justify-center w-10 h-10 border rounded"
         type="submit"
       >
-        <span className="sr-only">Remove</span>
+        <span className="sr-only">Remover</span>
         <IconRemove aria-hidden="true" />
       </button>
     </CartForm>
@@ -268,7 +268,7 @@ function CartLineQuantityAdjust({line}) {
   return (
     <>
       <label htmlFor={`quantity-${lineId}`} className="sr-only">
-        Quantity, {quantity}
+        Quantidade, {quantity}
       </label>
       <div className="flex items-center border rounded">
         <UpdateCartButton lines={[{id: lineId, quantity: prevQuantity}]}>
@@ -350,17 +350,16 @@ export function CartEmpty({hidden = false, layout = 'drawer', onClose}) {
     <div ref={scrollRef} className={container[layout]} hidden={hidden}>
       <section className="grid gap-6">
         <Text format>
-          Looks like you haven&rsquo;t added anything yet, let&rsquo;s get you
-          started!
+        Parece que você ainda não adicionou nada, vamos começar!
         </Text>
         <div>
-          <Button onClick={onClose}>Continue shopping</Button>
+          <Button onClick={onClose}>Continue comprando</Button>
         </div>
       </section>
       <section className="grid gap-8 pt-16">
         <FeaturedProducts
           count={4}
-          heading="Shop Best Sellers"
+          heading="Compre os mais vendidos"
           layout={layout}
           onClose={onClose}
           sortKey="BEST_SELLING"

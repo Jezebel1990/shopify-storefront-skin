@@ -85,9 +85,9 @@ export default function Login() {
   const [nativePasswordError, setNativePasswordError] = useState(null);
 
   return (
-    <div className="flex justify-center my-24 px-4">
+    <div className="flex justify-center my-24 px-4 ">
       <div className="max-w-md w-full">
-        <h1 className="text-4xl">Sign in.</h1>
+        <h1 className="text-4xl">Entrar</h1>
         {/* TODO: Add onSubmit to validate _before_ submission with native? */}
         <Form
           method="post"
@@ -107,8 +107,9 @@ export default function Login() {
               type="email"
               autoComplete="email"
               required
-              placeholder="Email address"
+              placeholder="Email"
               aria-label="Email address"
+              style={{ color: 'black' }} 
               // eslint-disable-next-line jsx-a11y/no-autofocus
               autoFocus
               onBlur={(event) => {
@@ -134,6 +135,7 @@ export default function Login() {
               autoComplete="current-password"
               placeholder="Password"
               aria-label="Password"
+              style={{ color: 'black' }} 
               minLength={8}
               required
               // eslint-disable-next-line jsx-a11y/no-autofocus
@@ -166,21 +168,21 @@ export default function Login() {
               type="submit"
               disabled={!!(nativePasswordError || nativeEmailError)}
             >
-              Sign in
+              Entrar
             </button>
           </div>
           <div className="flex justify-between items-center mt-8 border-t border-gray-300">
             <p className="align-baseline text-sm mt-6">
-              New to {shopName}? &nbsp;
+              Novo  {shopName}? &nbsp;
               <Link className="inline underline" to="/account/register">
-                Create an account
+                Criar uma conta
               </Link>
             </p>
             <Link
               className="mt-6 inline-block align-baseline text-sm text-primary/50"
               to="/account/recover"
             >
-              Forgot password
+              Esqueceu a senha?
             </Link>
           </div>
         </Form>

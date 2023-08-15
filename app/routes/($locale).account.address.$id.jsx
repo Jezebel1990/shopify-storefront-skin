@@ -167,6 +167,7 @@ export default function EditAddress() {
               placeholder="First name"
               aria-label="First name"
               defaultValue={address?.firstName ?? ''}
+              style={{ color: 'black' }} 
             />
           </div>
           <div className="mt-3">
@@ -180,6 +181,7 @@ export default function EditAddress() {
               placeholder="Last name"
               aria-label="Last name"
               defaultValue={address?.lastName ?? ''}
+              style={{ color: 'black' }} 
             />
           </div>
           <div className="mt-3">
@@ -192,6 +194,7 @@ export default function EditAddress() {
               placeholder="Company"
               aria-label="Company"
               defaultValue={address?.company ?? ''}
+              style={{ color: 'black' }} 
             />
           </div>
           <div className="mt-3">
@@ -205,6 +208,7 @@ export default function EditAddress() {
               required
               aria-label="Address line 1"
               defaultValue={address?.address1 ?? ''}
+              style={{ color: 'black' }} 
             />
           </div>
           <div className="mt-3">
@@ -230,6 +234,7 @@ export default function EditAddress() {
               placeholder="City"
               aria-label="City"
               defaultValue={address?.city ?? ''}
+              style={{ color: 'black' }} 
             />
           </div>
           <div className="mt-3">
@@ -243,6 +248,7 @@ export default function EditAddress() {
               required
               aria-label="State"
               defaultValue={address?.province ?? ''}
+              style={{ color: 'black' }} 
             />
           </div>
           <div className="mt-3">

@@ -5,7 +5,7 @@ export function AccountAddressBook({customer, addresses}) {
   return (
     <>
       <div className="grid w-full gap-4 p-4 py-6 md:gap-8 md:p-8 lg:p-12">
-        <h3 className="font-bold text-lead">Address Book</h3>
+        <h3 className="font-bold text-lead">Endereços</h3>
         <div>
           {!addresses?.length && (
             <Text className="mb-1" width="narrow" as="p" size="copy">
@@ -18,7 +18,7 @@ export function AccountAddressBook({customer, addresses}) {
               className="mt-2 text-sm w-full mb-6"
               variant="secondary"
             >
-              Add an Address
+              Adicione um endereço
             </Button>
           </div>
           {Boolean(addresses?.length) && (
